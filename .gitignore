@@ -1,0 +1,9 @@
+*.layout
+*.depend
+bin/*
+obj/*
+*.csv
+*.dat
+*.png
+*.bin
+*.pyc
