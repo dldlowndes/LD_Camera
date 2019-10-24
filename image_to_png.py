@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-class DaveImage:
+class LD_Image:
 
     def __init__(self):
         pass
@@ -43,7 +43,7 @@ class DaveImage:
 
 
 def Multi_Test():
-    myImage = DaveImage()
+    myImage = LD_Image()
     folder = "images"
     for i in range(50):
         print(i)
@@ -55,7 +55,7 @@ def Multi_Test():
 
 
 def AOI_Test():
-    myImage = DaveImage()
+    myImage = LD_Image()
     myImage.Load_DAT("images/full.dat", 1280, 1024, 10)
     myImage.Save_Image("images/full.png")
 
@@ -64,6 +64,6 @@ def AOI_Test():
 
 
 if __name__ == "__main__":
-    myImage = DaveImage()
-    myImage.Load_DAT("Error.bin", 1280,1024,10)
+    myImage = LD_Image()
+    myImage.Load_DAT("test_image.bin", 1280,1024,10)
     myImage.Show_Image()
