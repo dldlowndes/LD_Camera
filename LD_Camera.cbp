@@ -2,13 +2,13 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="davecamera2" />
+		<Option title="LD_Camera" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Linux">
 				<Option platforms="Unix;" />
-				<Option output="bin/Release/davecamera2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/LD_Camera" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -18,7 +18,7 @@
 			</Target>
 			<Target title="Windows">
 				<Option platforms="Windows;" />
-				<Option output="bin/Release/davecamera2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/LD_Camera" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -44,9 +44,9 @@
 		<Linker>
 			<Add library="libueye_api" />
 		</Linker>
-		<Unit filename="include/davecamera2.h" />
+		<Unit filename="include/LD_Camera.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/davecamera2.cpp" />
+		<Unit filename="src/LD_Camera.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
